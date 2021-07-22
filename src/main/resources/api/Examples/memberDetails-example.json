@@ -1,0 +1,22 @@
+{
+  "firstName": "Naveen",
+  "lastName": "Raj",
+  "maritalStatus": "Unmarried",
+  "title": "Mr",
+  "gender": "Male",
+  "occupation": "Engineer",
+  "preferredName": "Nav",
+  "identity": {
+    "password": "testing",
+    "phoneCountry": "India",
+    "phoneNumber": "18888888887",
+    "email": "emailNaveen001@email.com"
+  },
+  "address": {
+    "Country": "India",
+    "City": "HongKong",
+    "Area": "CentralAndWesternDistrict",
+    "province": "HongKongIsland",
+    "placeOfResidence": "12/3 Kamaraj Street"
+  }
+}

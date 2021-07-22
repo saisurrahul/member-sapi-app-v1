@@ -1,0 +1,33 @@
+#%RAML 1.0 Trait
+
+headers:
+  X-Cms-TransactionId:
+    required: true
+    description: Use for logging and tracking purposes. 
+    minLength: 36
+    maxLength: 36
+    type: string
+    example: "ca4ec07a-0781-48f1-92e2-ab568367a9d8"
+  X-Cms-Channel:
+    required: true
+    type: string
+    enum:
+    - Mobile
+    - WebApp
+    example: "Mobile"
+  X-Cms-OriginLanguage:
+            required: true
+            type: string
+            enum:
+              - en
+              - ch
+              - cn
+            example: "en"  
+  X-Cms-OriginMarket:
+            required: true
+            type: string
+            enum:
+                - India
+                - United state
+                - UK
+            example: "India"
